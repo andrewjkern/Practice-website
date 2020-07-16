@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;  
+    font-family: 'Space Mono', monospace;  
+    text-shadow: 1px 1px 5px gold;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.simple {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px gold;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0px;
+    
+}
+li {
+    display: flex;
+    padding: 15px;
+    color: white;
+}
+.log-in {
+    display: flex;
+    justify-content: space-evenly;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    padding-right: 10px;
+    align-items: center;
+    font-size: 15px;
+    background-color: whitesmoke;
+    
+
+}
+.english {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 10px;
+        align-items: center;
+        background-image: url(space.mp4/globe.png);
+        color: white;
+        
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 350px;
+ }
+
+ .create {
+     padding: 10px;
+     font-size: 30px;
+     color: white;
+ }
+span{
+    color: gold;
+}
+ .free {
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+    
+ }
+
+ .start{
+    padding: 10px;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+ }
+ video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+button:hover{
+    color: white;
+    background-color: gold;
+}
+
+a:hover {
+    color: white;
+    background-color: gold;
+    border-radius: 15px;
+    color: black;
+    width: auto;
+}
+button {
+    box-shadow: 2px 2px 2px gold
+}
